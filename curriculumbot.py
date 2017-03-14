@@ -14,7 +14,7 @@ def handle(msg):
 	elif command == '/experiencia':
 		bot.sendMessage(chat_id, '*Prestador de Serviço - PMJP - Secitec\nCargo: Instrutor de Estação Diigital\nPeríodo: 1(hum) ano e meio\n*Prestador de Serviço - PMJP - Sedes\nCargo: Entrevistador Bolsa Família - Operador do Cadastro Único e SIBEC\nPeríodo: 2(dois) anos e um mês\n*HostDime\nCargo: Atendimento Nível 1\nPeríodo: 1(hum) mês de estágio')
 
-bot = telepot.Bot('254523589:AAEl0D-n6n3_UnG84SF8KWTt9GNVe2vb5Ho')
+bot = telepot.Bot('Token Here')
 bot.message_loop(handle)
 print 'listening...'
 
